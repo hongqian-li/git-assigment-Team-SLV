@@ -18,7 +18,23 @@ public class CarClass {
         System.out.println("First Car:\n" + car1);
         System.out.println(" ");
         
+        // Create the second Car object.
+        Carr car2 = new Carr();
+        
+        // Set the information for the second car
+        car2.make = "Toyota";
+        car2.model = "Camry";
+        car2.color = "blue";
+        car2.year = 2022;
 
+        
+        // Using the toString() method and printing the information of the second car.
+        System.out.println("Second Car:\n" + car2.toString());
+        System.out.println(" ");
+        
+        // Alternatively, print the object of the second car directly, which implicitly calls toString() method.
+        System.out.println("Second Car:\n" + car2);
+        System.out.println(" ");
     }
 }
 //********************************************************************************
